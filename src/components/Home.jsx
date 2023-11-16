@@ -16,7 +16,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="mx-auto max-w-screen-xl flex flex-col items-center h-full w-full px-10 md:flex-row">
+      <div className="mx-auto max-w-screen-xl flex flex-col items-center h-full w-full px-5 md:flex-row">
         <div className="flex flex-col justify-center h-full m-auto">
           <h2 className="text-6xl font-bold text-white">
             <span className="hidden lg:block">{typeEffect}</span>

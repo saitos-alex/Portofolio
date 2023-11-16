@@ -4,10 +4,10 @@ const About = () => {
   return (
     <div
       name="about"
-      className="bg-gradient-to-b from-gray-800 to-black text-white w-full min-h-screen mt-0 p-5 flex items-center"
+      className="bg-gradient-to-b from-gray-800 to-black text-white w-full min-h-screen mt-0 px-5 flex items-center"
     >
       <div className="max-w-screen-xl mx-auto">
-        <div className="p-0">
+        <div className="p-2">
           <p className="text-4xl md:text-5xl lg:text-6xl font-semibold inline border-b-4 border-gray-500">
             About
           </p>

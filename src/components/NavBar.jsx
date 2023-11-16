@@ -28,7 +28,10 @@ export const NavBar = () => {
   ];
   return (
     <div className="flex justify-between items-center w-full bg-black px-5 h-20 text-white sticky top-0 z-100">
-      <h1 className="text-3xl md:text-5xl font-signature ml-2">Alexandru</h1>
+      <h1 className="text-3xl md:text-5xl font-signature ml-2">
+        <span className="hidden lg:block">Saitos Alexandru Cristian</span>
+        <span className="block lg:hidden">Alexandru</span>
+      </h1>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li

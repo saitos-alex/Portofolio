@@ -57,7 +57,7 @@ const Portofolio = () => {
       name="portofolio"
       className="bg-gradient-to-b from-black to-gray-800 text-white md:h-screen"
     >
-      <div className=" max-w-screen-xl p-8 mx-auto flex flex-col justify-center w-full h-full">
+      <div className=" max-w-screen-xl p-5 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-5xl font-bold inline border-b-4 border-gray-500">
             Portofolio

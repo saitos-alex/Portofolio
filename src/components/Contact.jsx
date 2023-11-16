@@ -6,8 +6,8 @@ export const Contact = () => {
       name="contact"
       className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
     >
-      <div className="flex flex-col p-2 justify-center max-w-screen-xl mx-auto h-full">
-        <div className="pb-8">
+      <div className="flex flex-col pt-14 justify-center max-w-screen-xl mx-auto h-full">
+        <div className="p-5">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
@@ -15,7 +15,7 @@ export const Contact = () => {
         </div>
         <div className="flex justify-center items-center">
           <form
-            className="flex flex-col w-full"
+            className="flex flex-col w-full p-5 md:p-0"
             method="POST"
             action="https://getform.io/f/876d7a29-b5f6-4314-b872-494e390b43b8"
           >
